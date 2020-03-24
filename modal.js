@@ -1,0 +1,1 @@
+var modal=document.querySelector("#my-modal"),modalBtn=document.querySelector("#modal-btn"),closeBtn=document.querySelector(".close");function openModal(){modal.style.display="block"}function closeModal(){modal.style.display="none"}modalBtn.addEventListener("click",openModal),closeBtn.addEventListener("click",closeModal);
